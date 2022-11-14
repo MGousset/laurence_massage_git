@@ -1,0 +1,17 @@
+{% load static %}
+
+<html>
+    <head>
+        <title>Laurence Massage!</title>
+        <link rel="stylesheet" href="{% static 'main/css/global.css' %}" />
+    </head>
+    <body>
+
+        <p>Header</p>
+
+            {% block content %}{% endblock %}
+
+        <p>Footer</p>
+
+    </body>
+</html>
