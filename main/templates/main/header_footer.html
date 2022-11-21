@@ -4,10 +4,23 @@
     <head>
         <title>Laurence Massage!</title>
         <link rel="stylesheet" href="{% static 'main/css/global.css' %}" />
+        <!-- <link rel="shortcut icon" href=""> -->
     </head>
     <body>
 
-        <p>Header</p>
+        <header id="top">
+            <div class="element-top">
+                <img src="/images/photo-profile.jpg" alt="Photo De moi" height="140px" width="140x">
+            </div>
+            <div class="element-top">
+                <nav class="navbar">
+                    <ul>
+                     <li id="accueil"><a href="accueil.html">Accueil</a></li>
+                    <li><a href="moi.html">A Propos de moi</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
 
             {% block content %}{% endblock %}
 
