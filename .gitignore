@@ -2,3 +2,4 @@ db.sqlite3
 laurence_massage_project/settings/production.py
 static/
 __pycache__
+env/
